@@ -1,0 +1,11 @@
+---
+name: Paraview App
+icon: fa://desktop
+category: Interactive Apps
+subcategory: GUIs
+role: batch_connect
+description: |
+  This app will launch the [Paraview App] GUI on the [Quest cluster].
+
+  [Paraview App]: https://www.paraview.org/
+  [Quest cluster]: https://www.it.northwestern.edu/departments/it-services-support/research/computing/quest/index.html
