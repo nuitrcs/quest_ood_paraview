@@ -5,6 +5,8 @@
 cluster: "quests"
 
 form:
+  # What paraview version do you want to use
+  - version
   # This allows the user to select which partition they submit to
   - slurm_partition
   # This allows a user to request a GPU
@@ -32,6 +34,13 @@ form:
   - raw_group_data
 
 attributes:
+  version:
+    widget: select
+    label: "Paraview version"
+    help: "This defines the version of Paraview you want to load."
+    options:
+      - [ "Paraview 5.13.3", "paraview/5.13.3" ]
+
   bc_num_hours:
     label: "Wall Time (in number of hours)"
     help: |

@@ -53,8 +53,9 @@ else
 fi
 
 #
-# Start MATLAB
+# Start Paraview
 #
 
 # Load the required environment
-/software/2025/paraview/5.13.3/ParaView-5.13.3-MPI-Linux-Python3.10-x86_64/bin/paraview
+module load <%= context.version %>
+paraview
